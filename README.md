@@ -22,7 +22,7 @@ docker run --rm -i --volumes-from cpplibs orian/cppenv:v1 /bin/bash
 
 ### Run a compilation inside a container
 ```
-docker run --rm -i --volumes-from cpplibs -v /home/orian/workspace/cpp/forex/mt4:/src:ro -v /tmp/build:/build orian/cppenv:v1 /bin/bash
+docker run --rm -i --volumes-from cpplibs -v /home/orian/workspace/cpp/smth:/src:ro -v /tmp/build:/build orian/cppenv:v1 /bin/bash
 ```
 
 Helpful resources:
